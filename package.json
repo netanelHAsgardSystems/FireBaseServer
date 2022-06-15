@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "name": "firebaseserver",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netanelHAsgardSystems/FireBaseServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/netanelHAsgardSystems/FireBaseServer/issues"
+  },
+  "homepage": "https://github.com/netanelHAsgardSystems/FireBaseServer#readme",
+  "description": "",
+  "dependencies": {
+    "@firebase/auth": "^0.20.3",
+    "express": "^4.18.1",
+    "firebase": "^9.8.3",
+    "firebase-admin": "^10.3.0"
+  }
+}
